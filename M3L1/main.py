@@ -1,5 +1,5 @@
 from flask import Flask
-from random import choice,randint
+from random import choice,randint #random.choice yerine doğrudan choice fonksiyonu kullanabilmeyi sağlar.
 
 #import random
 app = Flask(__name__)
